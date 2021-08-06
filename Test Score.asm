@@ -28,7 +28,7 @@ main PROC
 
 		mov edx, OFFSET str1
 		call WriteString
-		move al, grade
+		mov al, grade
 		call WriteChar
 		call Crlf
 
